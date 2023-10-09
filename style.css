@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap');
+
+/* font-family: 'Cormorant Garamond', serif; */
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+/* banner */
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Images/banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    height: 65px;
+    /* background-color: red; */
+    padding: 0px 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.logo {
+    width: 20%;
+    height: 65px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    font-weight: bold;
+    color: black;
+}
+
+.nav {
+    width: 45%;
+    height: 65px;
+    /* background-color: blue; */
+}
+
+.nav-links {
+    width: 100%;
+    height: 65px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-link {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+.btn {
+    padding: 5px 10px;
+    font-size: 19px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 25px;
+    color: black;
+    cursor: pointer;
+    background-color: transparent;
+    transition: .4s;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.banner-details {
+    width: 100%;
+    /* background-color: gray; */
+    padding: 10px 12%;
+    margin-top: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-heading {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bolder;
+    color: black;
+}
+
+.btn-one {
+    padding: 5px 15px;
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: 15px;
+    border-radius: 25px;
+    border: 1.5px solid black;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.booking {
+    width: 100%;
+    padding: 20px 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-top: 50px;
+    display: flex;
+    gap: 15px;
+}
+
+.input {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 5px;
+    font-weight: bold;
+}
+
+label {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+input {
+    height: 30px;
+    text-indent: 5px;
+    font-size: 17px;
+}
+
+.btn-two {
+    padding: 10px 15px;
+    font-size: 19px;
+    font-weight: bold;
+    border: 1.5px solid black;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-two:hover {
+    background-color: transparent;
+    color: black;
+}
+
+.rooms {
+    width: 100%;
+    padding: 50px 12%;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.rooms-area {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5%;
+    row-gap: 30px;
+}
+
+.room {
+    width: 30%;
+    background-color: white;
+}
+
+.rooms > p {
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.room-img {
+    width: 100%;
+}
+
+.room-image {
+    width: 100%;
+    cursor: pointer;
+}
+
+.room-details {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.room-details > p {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.btn-three {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1.5px solid black;
+    padding: 5px 10px;
+}
+
+.amenities {
+    padding: 25px 12%;
+    width: 100%;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.amenities > h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.amenities > p {
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.amenities-area {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5%;
+    margin-top: 45px
+}
+
+.amenity {
+    width: 30%;
+    background-color: white;
+}
+
+.amenity-img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.amenity-image {
+    width: 100%;
+}
+
+.amenity-details {
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+
+/* Food Section */
+
+.food {
+    width: 100%;
+    height: 80vh;
+    padding: 50px 12%;
+    background-color: #ffffff;
+    background-image: url(./Images/restaurant.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.food-details {
+    width: 60%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 15px;
+}
+
+.section-title {
+    font-size: 39px;
+    font-weight: bold;
+}
+
+.food-details > p {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+/* premium */
+
+.premium {
+    width: 100%;
+    padding: 50px 12%;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prooms-area {
+    width: 100%;
+    height: 800px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.proom-img {
+    width: 30%;
+    height: 800px;
+    overflow: hidden;
+}
+
+.proom-image {
+    width: 100%;
+}
+
+.proom-boxes {
+    width: 65%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.proom-box {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 15px;
+}
+
+/* Gallery */
+
+.gallery {
+    width: 100%;
+    padding: 50px 12%;
+    background-color: black;
+}
+
+.gal-img {
+    width: 33%;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 0.6;
+}
+
+.gal-img:hover {
+    opacity: 1;
+}
+
+.subscribe {
+    width: 100%;
+    padding: 50px 12%;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 15%;
+    row-gap: 50px;
+}
+
+.logo2 {
+    width: 40%;
+}
+
+.subscribe > h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.subscribe > p {
+    font-size: 23px;
+}
+
+.footer {
+    width: 100%;
+    padding: 35px 12%;
+    font-size: 21px;
+    font-weight: 600;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+    transition: .5s;
+}
+
+.fa-brands {
+    cursor: pointer;
+}
+
+.fa-brands:hover {
+    margin-top: -10px;
+}

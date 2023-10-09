@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- Banner -->
+
+    <section class="banner">
+        <header class="header">
+
+            <div class="logo">
+                <h1 class="logo-text">Travello.</h1>
+            </div>
+
+            <nav class="nav">
+                <ul class="nav-links">
+                    <li class="nav-link">Home</li>
+                    <li class="nav-link">Rooms</li>
+                    <li class="nav-link">Amenities</li>
+                    <li class="nav-link">Premium</li>
+                    <li class="nav-link">Gallery</li>
+                </ul>
+            </nav>
+
+            <button class="btn">Reservation</button>
+        </header>
+
+        <div class="banner-details">
+            <h1 class="banner-heading">We Travel Not To Escape Life But</h1>
+            <h1 class="banner-heading">for Life not to Escape Us...</h1>
+
+            <button class="btn-one">Explore Now</button>
+
+            <div class="booking">
+                <div class="input">
+                    <label for="checkin">Check In Date</label>
+                    <input type="date" id="checkin">
+                </div>
+                <div class="input">
+                    <label for="checkout">Check Out Date</label>
+                    <input type="date" id="checkout">
+                </div>
+                <div class="input">
+                    <label for="adults">No of Adults</label>
+                    <input type="number" id="adults" minlength="1" placeholder="0">
+                </div>
+                <div class="input">
+                    <label for="child">No of Children</label>
+                    <input type="number" id="child" minlength="1" placeholder="0">
+                </div>
+                <div class="input">
+                    <button class="btn-two">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rooms -->
+
+    <section class="rooms" data-aos="fade-up" data-aos-duration="1000">
+        <h1 class="section-title">Come & Stay With Us</h1>
+        <p>Pick any of our hotel rooms to experience the delightful decor</p>
+        <div class="rooms-area">
+            <div class="room">
+                <div class="room-img">
+                    <img class="room-image" src="./Images/room1.jpg" alt="">
+                </div>
+                <div class="room-details">
+                    <h2>Deluxe Rooms</h2>
+                    <p>Our double deluxe rooms are complemented with modern and luxurious amenities for a wonderful stay.</p>
+                    <button class="btn-three">
+                        Read More
+                    </button>
+                </div>
+            </div>
+            <div class="room">
+                <div class="room-img">
+                    <img class="room-image" src="./Images/room2.jpg" alt="">
+                </div>
+                <div class="room-details">
+                    <h2>Club Room</h2>
+                    <p>We offer 15 club rooms designed with a vibrant touch to enhance your spirits for a happening holiday.</p>
+                    <button class="btn-three">
+                        Read More
+                    </button>
+                </div>
+            </div>
+            <div class="room">
+                <div class="room-img">
+                    <img class="room-image" src="./Images/room3.jpg" alt="">
+                </div>
+                <div class="room-details">
+                    <h2>Standard Suite</h2>
+                    <p>If you are looking for a room that gives you both space and luxury at a reasonable price, this is the one for you.</p>
+                    <button class="btn-three">
+                        Read More
+                    </button>
+                </div>
+            </div>
+            <div class="room">
+                <div class="room-img">
+                    <img class="room-image" src="./Images/room4.jpg" alt="">
+                </div>
+                <div class="room-details">
+                    <h2>Executive Suite</h2>
+                    <p>Experience luxury in style in our executive suites. These rooms also give you a beautiful view of the city.</p>
+                    <button class="btn-three">
+                        Read More
+                    </button>
+                </div>
+            </div>
+            <div class="room">
+                <div class="room-img">
+                    <img class="room-image" src="./Images/room5.jpg" alt="">
+                </div>
+                <div class="room-details">
+                    <h2>Grand Suite</h2>
+                    <p>This is the second-highest ranked room in our hotel that offers luxury with the most advanced amenities.</p>
+                    <button class="btn-three">
+                        Read More
+                    </button>
+                </div>
+            </div>
+            <div class="room">
+                <div class="room-img">
+                    <img class="room-image" src="./Images/room6.jpg" alt="">
+                </div>
+                <div class="room-details">
+                    <h2>Presidential Suite</h2>
+                    <p>Wish to live like a king? Here’s the top presidential suite where you can spend the best days of your life.</p>
+                    <button class="btn-three">
+                        Read More
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Amenities -->
+
+    <section class="amenities" data-aos="fade-up" data-aos-duration="1000">
+        <h1>Amenities & Facilities</h1>
+        <p>If you are looking for a relaxing, refreshing and rejuvenating experience altogether, we offer all of that under one roof.</p>
+        <div class="amenities-area">
+            <div class="amenity">
+                <div class="amenity-img">
+                    <img class="amenity-image" src="./Images/amenity1.jpg">
+                </div>
+                <div class="amenity-details">
+                    <h2>An Infinite-edge Pool</h2>
+                    <p>Experience the joy of swimming in our infinity-edge pool that gives you a nice picturesque view.</p>
+                    <button class="btn-three">
+                        Read More
+                    </button>
+                </div>
+            </div>
+            <div class="amenity">
+                <div class="amenity-img">
+                    <img class="amenity-image" src="./Images/amenity2.jpg">
+                </div>
+                <div class="amenity-details">
+                    <h2>An Infinite-edge Pool</h2>
+                    <p>Experience the joy of swimming in our infinity-edge pool that gives you a nice picturesque view.</p>
+                    <button class="btn-three">
+                        Read More
+                    </button>
+                </div>
+            </div>
+            <div class="amenity">
+                <div class="amenity-img">
+                    <img class="amenity-image" src="./Images/amenity3.jpg">
+                </div>
+                <div class="amenity-details">
+                    <h2>An Infinite-edge Pool</h2>
+                    <p>Experience the joy of swimming in our infinity-edge pool that gives you a nice picturesque view.</p>
+                    <button class="btn-three">
+                        Read More
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Food -->
+
+    <section class="food">
+        <div class="food-details" data-aos="fade-up" data-aos-duration="1000">
+            <h1 class="section-title">
+                Best Foods from all over the world!
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolores at, dolor iure accusamus, consequatur recusandae animi tenetur voluptates iste </p>
+            <button class="btn-three">
+                Explore More Foods
+            </button>
+        </div>
+    </section>
+
+    <!-- Premium Rooms -->
+
+    <section class="premium" data-aos="fade-up" data-aos-duration="1000">
+        <h1 class="section-title">Some Premium Rooms</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="prooms-area">
+            <div class="proom-img">
+                <img class="proom-image" src="./Images/vertical.jpg">
+            </div>
+            <div class="proom-boxes">
+                <div class="proom-box">
+                    <h1 class="section-title">Premium Lake side Rooms</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem dicta a ducimus ex assumenda repudiandae</p>
+                    <h2>$300</h2>
+                    <button class="btn-three">Explore More Options</button>
+                </div>
+                <div class="proom-box">
+                    <h1 class="section-title">Premium Lake side Rooms</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem dicta a ducimus ex assumenda repudiandae</p>
+                    <h2>$300</h2>
+                    <button class="btn-three">Explore More Options</button>
+                </div>
+                <div class="proom-box">
+                    <h1 class="section-title">Premium Lake side Rooms</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem dicta a ducimus ex assumenda repudiandae</p>
+                    <h2>$300</h2>
+                    <button class="btn-three">Explore More Options</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+
+    <section class="gallery" data-aos="fade-up" data-aos-duration="1000">
+        <img class="gal-img" src="./Images/gallery1.jpg" alt="">
+        <img class="gal-img" src="./Images/gallery2.jpg" alt="">
+        <img class="gal-img" src="./Images/gallery3.jpg" alt="">
+        <img class="gal-img" src="./Images/gallery4.jpg" alt="">
+        <img class="gal-img" src="./Images/gallery5.jpg" alt="">
+        <img class="gal-img" src="./Images/gallery6.jpg" alt="">
+    </section>
+
+    <!-- Subscribe -->
+
+    <section class="subscribe" data-aos="fade-up" data-aos-duration="1000">
+        <div class="logo2">
+            <h1 class="logo-text">Travello.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos aspernatur numquam illum eaque totam enim sapiente</p>
+        </div>
+        <div class="contact">
+            <h1>Contact</h1>
+            <p>Travel & Tourism,</p>
+            <p>2855 Nelsonville Rd, Boston,</p>
+            <p>Massachusetts (MA), 40107</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        <div class="copyrights">
+            <p>Copyright (c) 2023 Travello</p>
+        </div>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
